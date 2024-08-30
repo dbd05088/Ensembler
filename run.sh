@@ -1,0 +1,1 @@
+CUDA_VISIBLE_DEVICES=0 python -u main.py --fraction 0.1785 --dataset PACS --data_path ../PACS --num_exp 1 --workers 8 --optimizer SGD -se 10 --selection CurvMatch --model ResNet --lr 0.01 -sp ./result --batch 256 
